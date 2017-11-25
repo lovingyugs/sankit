@@ -18,7 +18,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // app.use('/sankit/api/v1/', routes);
 // Our Route server url
-// app.use('/allied/api/v1', router);
 
 // rendering Files
 app.get('/', (req, res) => {
