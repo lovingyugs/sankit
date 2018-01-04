@@ -5,7 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards."
+  },
+  "engines": {
+    "node": "6.10.1",
+    "npm": "5.5.1"
   },
   "repository": {
     "type": "git",
@@ -20,8 +25,6 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "heroku": "^0.2.0",
-    "heroku-cli": "^6.15.5",
     "morgan": "^1.9.0",
     "path": "^0.12.7"
   }

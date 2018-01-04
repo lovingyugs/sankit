@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 // Our Route server url
 
 // rendering Files
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(`${__dirname}/public/pages/`);
 });
 
