@@ -20,8 +20,13 @@ app.use(bodyParser.json());
 // Our Route server url
 
 // rendering Files
-app.get('*', (req, res) => {
-  res.sendFile(`${__dirname}/public/pages/`);
+app.get('*', function (req, res) {
+  res.sendfile(path.join(__dirname) + '/public/pages/index.html');
+});
+
+
+app.get('/', function (req, res) {
+  res.sendfile(path.join(__dirname) + '/public/pages/index.html');
 });
 
 module.exports = app;
