@@ -60,7 +60,7 @@ Author URI : http://www.markups.io/
 .mu-social-media a:hover,
 .mu-social-media a:focus {
 	border: 1px solid #3d72fc;
-	color: #3d72fc;
+	/*color: #fff;*/
 }
 
 .mu-contact-form .form-control:focus,
