@@ -21,12 +21,12 @@ app.use(bodyParser.json());
 
 // rendering Files
 app.get('*', function (req, res) {
-  res.sendfile(path.join(__dirname) + '/public/pages/index.html');
+  res.sendFile(path.join(__dirname) + '/public/pages/index.html');
 });
 
 
 app.get('/', function (req, res) {
-  res.sendfile(path.join(__dirname) + '/public/pages/index.html');
+  res.sendFile(path.join(__dirname) + '/public/pages/index.html');
 });
 
 module.exports = app;
