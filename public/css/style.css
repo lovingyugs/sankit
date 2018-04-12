@@ -230,7 +230,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("../images/head-featured-bg.jpg");
+	background-image: url("../images/bg1.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -244,6 +244,8 @@ button:focus {
 	display: inline;
 	float: left;
 	opacity: 0.94;
+	background-color: none !important;
+	background: none !important;
 	width: 100%;
 }
 
@@ -1789,6 +1791,13 @@ button:focus {
 	
 }
 
+
+.bg-image{
+    width: 41%;
+    height: 159px;
+    margin-top: 7px;
+
+}
 
 
 
